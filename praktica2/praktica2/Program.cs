@@ -35,7 +35,7 @@ public class StringProcessor
         }
         else
         {
-            //Нечётное количество символов
+            //Нечётное количество символов 
             return new string(inputString.Reverse().ToArray()) + inputString;
         }
     }
