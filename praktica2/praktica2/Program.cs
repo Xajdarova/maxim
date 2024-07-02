@@ -19,8 +19,7 @@ public class StringProcessor
             }
         }
         else
-        {
-            string processedString = ProcessString(inputString);
+        {string processedString = ProcessString(inputString);
             Console.WriteLine("Обработанная строка:");
             Console.WriteLine(processedString);
         }
