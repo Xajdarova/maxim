@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-
 public class StringProcessor
 {
     public static void Main(string[] args)
@@ -25,6 +24,7 @@ public class StringProcessor
             Console.WriteLine(processedString);
         }
     }
+
     public static string ProcessString(string inputString)
     {
         if (inputString.Length % 2 == 0)
