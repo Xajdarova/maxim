@@ -12,7 +12,7 @@
     {
         if (inputString.Length % 2 == 0)
         {
-            // Чётное количество символов
+            //Чётное количество символов
             int middle = inputString.Length / 2;
             string firstHalf = inputString.Substring(0, middle);
             string secondHalf = inputString.Substring(middle);
