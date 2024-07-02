@@ -20,7 +20,7 @@
         }
         else
         {
-            // Нечётное количество символов
+            //Нечётное количество символов
             return ReverseString(inputString) + inputString;
         }
     }
