@@ -10,7 +10,6 @@ public class StringProcessor
     {
         Console.WriteLine("Введите строку:");
         string inputString = Console.ReadLine();
-
         // Проверка строки на наличие только букв английского алфавита в нижнем регистре
         if (!inputString.All(char.IsLower) || !inputString.All(char.IsLetter))
         {
